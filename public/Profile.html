@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1">
+		<title>Profile</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" >
+        <link  rel="stylesheet" type="text/css" href="css/Profile.css" >
+	</head>
+	<body>
+		<div class="Profile">
+			<h1>Profile</h1>
+			<form action="/" method="post">
+                <div class="avatar-wrapper">
+                    <img class="profile-pic" src="" />
+                    <div class="upload-button">
+                        <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+                    </div>
+                    <input class="file-upload" type="file" accept="image/*" />
+                </div>
+				<label for="name" class="nowrap">ชื่อ - นามสกุล ：
+				<input type="text" name="name" placeholder="ชื่อ - นามสกุล" id="username" disabled="true" ></label>
+				<label for="phonenumber"  class="nowrap">เบอร์โทร ：
+				<input type="text" name="phonenumber" placeholder="เบอร์โทร" id="phonenumber" disabled="true" ></label>
+                <label for="Email"  class="nowrap">Email ：
+                    <input type="text" name="Email" placeholder="Email" id="Email" disabled="true" ></label>
+
+				<input type="submit" value="Logout">
+			</form>
+		</div>
+	</body>
+</html>
